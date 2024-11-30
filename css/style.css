@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    font-family: "Alumni Sans";
+    font-size: 150%;
+}
+
+
+.maincontent{
+    position:absolute;
+    left:-1000px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+     opacity: 0;
+}
+
+.maincontent:focus {
+  left: 0%;
+  opacity: 1;
+}
+
+a:link {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+
+
+
+header {
+  background-color: #f4f4f4;
+}
+
+h1{
+    font-size: 300%;
+    text-align: center;
+    align-content: center;
+    margin:0;
+    line-height: 70%;
+    font-variant: small-caps;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 5px 5px rgba(0,0,0,0.3);
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display:flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+    color: black;
+}
+
+.currentpage{
+    text-decoration: underline;
+}
+nav a:hover{
+    color:  grey;
+}
+
+nav img{
+    height: 50px;
+}
+
+    #spacer img{
+   width: 100%;
+}
+
+.about{
+    
+    display: inline-block;
+    padding: 10px;
+    margin:0;
+
+}
+
+.aboutimage{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    justify-content: center;
+}
+
+.about img{
+    width: 40%;
+    object-fit:contain;
+    min-width: 200px;
+}
+
+.abouttext{
+     max-width: 50%;
+    padding: 10px;
+    }
+
+.works{
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+
+h2{
+    line-height: 60%;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 400%;
+    margin: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* 3D ART */ 
+.threedart{
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.threedarttext{
+    width: 80%;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+    line-height: 90%;
+}
+
+h3{
+    display:block;
+    font-size: 250%;
+    margin:0;
+    line-height: 70%;
+}
+
+.threedartimg{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+}
+
+.threedartimg img{
+    width: 30%;
+    min-width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    object-fit: contain;
+}
+/* 3D ART */
+
+/* BOOKS */ 
+.books{
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bookstext{
+    width: 80%;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+    line-height: 90%;
+}
+
+h4{
+    display:block;
+    font-size: 250%;
+    margin:0;
+    line-height: 70%;
+}
+
+.booksimg{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+}
+
+.booksimg img{
+    width: 30%;
+    min-width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    object-fit: contain;
+}
+/* BOOK COVERS */
+
+.gallerybutton {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gallerybutton a{
+    text-decoration: none;
+    padding: 20px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: white;
+}
+.backtotop{
+margin: 0%;
+padding: 0;
+text-align: center;
+    text-decoration: none;
+
+}
+
+.gridgallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+        padding: 10px;
+    justify-content: center;
+}
+
+
+.gridgallery img{
+    width: 90%;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.gridgallery img:nth-child(odd){
+    box-shadow: 0 0 10px darkgrey;
+}
+
+.gridgallery img:hover{
+    box-shadow: 0 0 10px black;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+form input, 
+form textarea, 
+form button {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form input:focus, 
+form textarea:focus {
+  border-color: #888;
+  outline: none;
+}
+
+form button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+form button:hover {
+  background-color: #333;
+}
